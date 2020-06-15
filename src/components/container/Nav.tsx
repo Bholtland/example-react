@@ -9,6 +9,7 @@ class Nav extends React.Component {
     render() {
         return(
             <nav>
+                <div></div>
                 <SearchBar/>
                 <UserNavigation/>
             </nav>
