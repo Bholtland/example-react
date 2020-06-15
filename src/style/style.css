@@ -1,0 +1,67 @@
+:root {
+    --primary-background-color: rgb(36, 41, 48);
+}
+
+html {
+    background-color: var(--primary-background-color);
+}
+
+html input {
+    font-size: 1rem;
+    text-indent: 1rem;
+    color: #fff;
+}
+
+nav {
+    color: #fff;
+    min-height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+}
+
+nav .searchbar {
+    width: 100%;
+    max-width: 40rem;
+}
+
+nav .searchbar fieldset {
+    border: none;
+}
+
+nav .searchbar form input {
+    width: 100%;
+    height: 3rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: rgba(255,255,255,0.2);
+}
+
+nav .user-navigation {
+   display: flex; 
+   align-items: center;
+   cursor: pointer;
+}
+
+nav .user-navigation img {
+    max-height: 3rem;
+    margin-left: 0.5rem;
+}
+
+.catalog {
+    padding: 2rem;
+}
+
+.catalog-item {
+    max-width: 16rem;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+.catalog-item h2 {
+    margin: 0;
+}

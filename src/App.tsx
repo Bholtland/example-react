@@ -6,7 +6,7 @@ import Catalog from './components/container/Catalog';
 import Nav from './components/container/Nav';
 
 // Static
-import './App.css';
+import './style/style.css';
 
 function App() {
   return (

@@ -7,7 +7,7 @@ import React from 'react';
 class SearchBar extends React.Component {
     render() {
         return(
-            <div>
+            <div className="searchbar">
                 <form action="">
                     <fieldset>
                         <input type="text" placeholder="Start typing to find you video..."/>
